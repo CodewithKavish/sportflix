@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sports</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <!-- BOOTSTRAP CSS LINK -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css">
+
+    <!-- BOOTSTRAP JS LINK -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js">
+
+    <!-- CSS FILE LINK -->
+    <link rel="stylesheet" href="./styles.css">
+
+    <!-- FONT AWESOME  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+        integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flag-icon-css/css/flag-icon.min.css">
+
+
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar bg-black mb-2 p-3 ">
+        <div class="container-fluid">
+            <h2 class="navbar-brand text-white my-0 mx-2">Sportsflix</h2>
+            <div class="d-flex chat">
+                <a class="py-2 px-3 text-white chatbot"><i class="fa fa-comment"></i> AI Chatbot</a>
+            </div>
+        </div>
+    </nav>
+    <!-- END OF NAVBAR -->
+    <div class="container">
+        <div class="button-carousel">
+            <button class="btn btn-outline-success cricket">🏏 Cricket</button>
+            <a href="football.html"><button class="btn btn-outline-success">⚽ Football</button></a>
+            <button class="btn btn-outline-success">🏀 Basketball</button>
+            <button class="btn btn-outline-success">🎾 Tennis</button>
+            <button class="btn btn-outline-success">🏐 Volleyball</button>
+        </div>
+    </div>
+
+    <!-- SCORE INDICATOR -->
+    <section class="main">
+        <div class="container">
+            <div class="card mb-3 bg-secondary py-1 pb-0">
+                <div class="card-body py-3 pb-2">
+                    <h6 class="card-subtitle mb-3  text-white">3rd Test &bull; India Tour of England , 2025</h6>
+                    <div class="flags-score d-flex">
+                        <div class="flag">
+                            <h6 class="card-subtitle mb-2 text-white d-inline-block"><span
+                                    class="flag-icon flag-icon-gb"></span>
+                                England</h6><br>
+                            <h6 class="card-subtitle mb-2 text-white d-inline-block"><span
+                                    class="flag-icon flag-icon-in"></span> India
+                            </h6>
+                        </div>
+                        <div class="scores">
+                            <div class="scores bg-dark">
+                                <p id="liveScore" class="text-white mb-2">Loading Live Score...</p>
+                                <a href="#" class="text-white">Live Score</a>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="card-text text-white mb-0">Today &bull; 3:30PM , London</p>
+                </div>
+                <div class="score">
+                    <a href="#" class="btn text-white">Live Score</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END OF SCORE INDICATOR -->
+
+    <div class="container mx-auto">
+
+        <div class="card mx-auto bg-dark mb-2">
+            <img src="./cricket/stokes.jpg" class="card-img-top" alt="...">
+            <div class="card-body bg-dark text-white ">
+                <h5 class="card-title">Comeback man Archer won’t be restricted to short spells: Stokes</h5>
+                <p class="text-secondary">Ben Stokes excited for Jofra Archer’s return to England’s Test squad at
+                    Lord’s, with no restrictions on his bowling</p>
+                <div class="like d-flex">
+                    <a href="#" class="btn btn-dark">Read More</a>
+                    <button class="Btn">
+                        <span class="leftContainer">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512" fill="#fff">
+                                <path
+                                    d="M313.4 32.9c26 5.2 42.9 30.5 37.7 56.5l-2.3 11.4c-5.3 26.7-15.1 52.1-28.8 75.2H464c26.5 0 48 21.5 48 48c0 18.5-10.5 34.6-25.9 42.6C497 275.4 504 288.9 504 304c0 23.4-16.8 42.9-38.9 47.1c4.4 7.3 6.9 15.8 6.9 24.9c0 21.3-13.9 39.4-33.1 45.6c.7 3.3 1.1 6.8 1.1 10.4c0 26.5-21.5 48-48 48H294.5c-19 0-37.5-5.6-53.3-16.1l-38.5-25.7C176 420.4 160 390.4 160 358.3V320 272 247.1c0-29.2 13.3-56.7 36-75l7.4-5.9c26.5-21.2 44.6-51 51.2-84.2l2.3-11.4c5.2-26 30.5-42.9 56.5-37.7zM32 192H96c17.7 0 32 14.3 32 32V448c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32V224c0-17.7 14.3-32 32-32z">
+                                </path>
+                            </svg>
+                            <span class="like">Like</span>
+                        </span>
+                        <span class="likeCount">
+                            2,050
+                        </span>
+                    </button>
+                </div>
+            </div>
+            <div class="card-footer">
+                <p class="text-secondary mb-0">2 Days Ago</p>
+            </div>
+        </div>
+
+        <div class="card mx-auto bg-dark mb-2">
+            <img src="./cricket/indian.jpg" class="card-img-top" alt="...">
+            <div class="card-body bg-dark text-white ">
+                <h5 class="card-title">ENG vs IND Test | Lord’s surface a litmus test for Bazball</h5>
+                <p class="text-secondary">India piling on the runs and finding success in Edgbaston has forced England
+                    to move from its original template of preparing flat tracks; Bumrah expected to replace Prasidh</p>
+                <div class="like d-flex">
+                    <a href="#" class="btn btn-dark">Read More</a>
+                    <button class="Btn">
+                        <span class="leftContainer">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512" fill="#fff">
+                                <path
+                                    d="M313.4 32.9c26 5.2 42.9 30.5 37.7 56.5l-2.3 11.4c-5.3 26.7-15.1 52.1-28.8 75.2H464c26.5 0 48 21.5 48 48c0 18.5-10.5 34.6-25.9 42.6C497 275.4 504 288.9 504 304c0 23.4-16.8 42.9-38.9 47.1c4.4 7.3 6.9 15.8 6.9 24.9c0 21.3-13.9 39.4-33.1 45.6c.7 3.3 1.1 6.8 1.1 10.4c0 26.5-21.5 48-48 48H294.5c-19 0-37.5-5.6-53.3-16.1l-38.5-25.7C176 420.4 160 390.4 160 358.3V320 272 247.1c0-29.2 13.3-56.7 36-75l7.4-5.9c26.5-21.2 44.6-51 51.2-84.2l2.3-11.4c5.2-26 30.5-42.9 56.5-37.7zM32 192H96c17.7 0 32 14.3 32 32V448c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32V224c0-17.7 14.3-32 32-32z">
+                                </path>
+                            </svg>
+                            <span class="like">Like</span>
+                        </span>
+                        <span class="likeCount">
+                            2,050
+                        </span>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="card mx-auto bg-dark mb-2">
+            <img src="./cricket/gill.avif" class="card-img-top" alt="...">
+            <div class="card-body bg-dark text-white ">
+                <h5 class="card-title">Shubman Gill to no longer operate under Gambhir’s shadows? 269 may have opened
+                    doors never seen before in Indian cricket</h5>
+                <p class="text-secondary">Shubman Gill produced an unprecedented display of batting prowess, registering
+                    the highest Test score by an Indian captain in just his second game as one.</p>
+                <div class="like d-flex">
+                    <a href="#" class="btn btn-dark">Read More</a>
+                    <button class="Btn">
+                        <span class="leftContainer">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512" fill="#fff">
+                                <path
+                                    d="M313.4 32.9c26 5.2 42.9 30.5 37.7 56.5l-2.3 11.4c-5.3 26.7-15.1 52.1-28.8 75.2H464c26.5 0 48 21.5 48 48c0 18.5-10.5 34.6-25.9 42.6C497 275.4 504 288.9 504 304c0 23.4-16.8 42.9-38.9 47.1c4.4 7.3 6.9 15.8 6.9 24.9c0 21.3-13.9 39.4-33.1 45.6c.7 3.3 1.1 6.8 1.1 10.4c0 26.5-21.5 48-48 48H294.5c-19 0-37.5-5.6-53.3-16.1l-38.5-25.7C176 420.4 160 390.4 160 358.3V320 272 247.1c0-29.2 13.3-56.7 36-75l7.4-5.9c26.5-21.2 44.6-51 51.2-84.2l2.3-11.4c5.2-26 30.5-42.9 56.5-37.7zM32 192H96c17.7 0 32 14.3 32 32V448c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32V224c0-17.7 14.3-32 32-32z">
+                                </path>
+                            </svg>
+                            <span class="like">Like</span>
+                        </span>
+                        <span class="likeCount">
+                            2,050
+                        </span>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="card mx-auto bg-dark mb-2">
+            <img src="./cricket/pc.webp" class="card-img-top" alt="...">
+            <div class="card-body bg-dark text-white ">
+                <h5 class="card-title">Pat Cummins to play character in kids’ cartoon series</h5>
+                <p class="text-secondary">Australia’s captain Pat Cummins has performed lead acts in several triumphs of his country. Now, he will appear in the new animated kids’ cartoon series Snick and Willow. The series centres around two cricket-loving characters on a mission to promote fun, friendship, and fair play through the spirit of the game.</p>
+                <div class="like d-flex">
+                    <a href="#" class="btn btn-dark">Read More</a>
+                    <button class="Btn">
+                        <span class="leftContainer">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512" fill="#fff">
+                                <path
+                                    d="M313.4 32.9c26 5.2 42.9 30.5 37.7 56.5l-2.3 11.4c-5.3 26.7-15.1 52.1-28.8 75.2H464c26.5 0 48 21.5 48 48c0 18.5-10.5 34.6-25.9 42.6C497 275.4 504 288.9 504 304c0 23.4-16.8 42.9-38.9 47.1c4.4 7.3 6.9 15.8 6.9 24.9c0 21.3-13.9 39.4-33.1 45.6c.7 3.3 1.1 6.8 1.1 10.4c0 26.5-21.5 48-48 48H294.5c-19 0-37.5-5.6-53.3-16.1l-38.5-25.7C176 420.4 160 390.4 160 358.3V320 272 247.1c0-29.2 13.3-56.7 36-75l7.4-5.9c26.5-21.2 44.6-51 51.2-84.2l2.3-11.4c5.2-26 30.5-42.9 56.5-37.7zM32 192H96c17.7 0 32 14.3 32 32V448c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32V224c0-17.7 14.3-32 32-32z">
+                                </path>
+                            </svg>
+                            <span class="like">Like</span>
+                        </span>
+                        <span class="likeCount">
+                            2,050
+                        </span>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- FOOTER -->
+    <div class="wrapper">
+        <footer class="bg-dark text-white text-center py-3">
+            © 2025 Sportsflix. All rights reserved.
+        </footer>
+    </div>
+    <!-- END OF FOOTER -->
+
+
+</body>
+
+</html>

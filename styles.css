@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #000 !important;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.chat a:hover {
+    background-color: #fff;
+    color: #000;
+    border-radius: 10%;
+    transition: all 0.3s;
+}
+
+.chat a:hover i,
+.chat a:hover {
+    color: #000 !important;
+}
+
+.card-body {
+    border-start-start-radius: 0;
+    border-start-end-radius: 0;
+    border-end-start-radius: 10px;
+    border-end-end-radius: 10px;
+}
+
+.card-body a:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.bg-secondary {
+    background-color: #252525 !important;
+}
+
+.score {
+    background-color: #4c4c4c;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    cursor: pointer;
+
+}
+
+.card a {
+    display: inline-block;
+}
+
+/* LIKE BUTTON */
+.Btn {
+    width: 140px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border: none;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.089);
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.leftContainer {
+    width: 60%;
+    height: 100%;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.leftContainer .like {
+    color: white;
+    font-weight: 600;
+}
+
+.likeCount {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+    font-weight: 600;
+    position: relative;
+    background-color: white;
+}
+
+.likeCount::before {
+    height: 8px;
+    width: 8px;
+    position: absolute;
+    content: "";
+    background-color: rgb(255, 255, 255);
+    transform: rotate(45deg);
+    left: -4px;
+}
+
+.Btn:hover .leftContainer {
+    background-color: red;
+}
+
+.Btn:active .leftContainer {
+    background-color: red;
+}
+
+.Btn:active .leftContainer svg {
+    transform: scale(1.15);
+    transform-origin: top;
+}
+
+/* LIKE BUTTON */
+
+.like {
+    justify-content: space-between;
+}
+
+.button-carousel {
+    overflow-x: auto;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+.button-carousel::-webkit-scrollbar {
+    display: none;
+    /* Chrome, Safari */
+}
+
+.button-carousel .btn {
+    display: inline-block;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    /* min-height: 100vh; */
+}
+
+.cricket {
+    background-color: #198743;
+    color: #fff;
+}
+
+.flags-score {
+    justify-content: space-between;
+}
+
+.button-carousel button:nth-child(2) {
+    background-color: #198743;
+    color: #fff;
+}
+
+.flag img {
+    width: 15%;
+}
+
+.navbar {
+    /* background-color: #1c1c1c !important; */
+}
+
+.navbar-brand{
+    font-size: 25px;
+}
+
+.chatbot {
+    font-size: 20px;
+}
+
+footer {
+    /* min-height: 100px; */
+}
